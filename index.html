@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">Bat Ball Stump Game</h1>
+
+    <button onclick="playGame('Bat')" class="choice"><img src="Images/bat.png" alt="bat Image" class="ch-img"></button>
+    <button onclick="playGame('Ball')" class="choice"><img src="Images/ball.png" alt="ball image" class="ch-img"></button>
+    <button onclick="playGame('Stump')" class="choice"><img src="Images/stump.png" alt="stump" class="ch-img"></button>
+
+    <!-- Area to display the score -->
+    <div id="score">
+        <p class="para">Wins: <span id="win">0</span></p>
+        <p class="para">Losses: <span id="lost">0</span></p>
+        <p class="para">Ties: <span id="tie">0</span></p>
+    </div>
+    <button onclick="reset()" class="reset">reset</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

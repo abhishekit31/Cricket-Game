@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+#heading{
+    padding-top: 20px;
+    color: brown;
+    padding-bottom: 25px;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    border: 0cap;
+    border-radius: 50%;
+    background-color: rgb(117, 165, 44);
+    cursor: pointer;
+}
+.ch-img{
+    height: 85px;
+}
+.reset{
+    height: 50px;
+    width: 90px;
+    font-size: 20px;
+    border: 0cap;
+    color: azure;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.para{
+    color: blue;
+    font-weight: bold;
+}
